@@ -6,15 +6,15 @@ Platform listing properti modern untuk jual/sewa dengan sistem inquiry dan favor
 
 ## 👥 Tim Pengembang
 
-**Nama Tim:** Digit 3 Development Team
+**Nama Tim:** Kelompok 04 - RB
 
-| Nama | NIM | Role | Pembagian Tugas |
-|------|-----|------|-----------------|
-| Pradana Figo Ariasya | 123140063 | Backend Developer |
-| Elfa Noviana Sari | 123140066 | Backend Developer | 
+| Nama | NIM | Role | 
+|------|-----|------|
+| Pradana Figo Ariasya | 123140063 | Frontend & Backend Developer |
+| Elfa Noviana Sari | 123140066 | Frontend & Backend Developer | 
 | Giovan Lado | 123140068 | Team Leader & Database Specialist | 
-| Hildyah Maretasya Araffad | 123140151 | Frontend Developer | 
-| Firman H Gultom | 123140171 |  Developer |
+| Hildyah Maretasya Araffad | 123140151 | Frontend & Backend Developer | 
+| Firman H Gultom | 123140171 | Frontend & Backend Developer |
 
 ---
 
@@ -178,8 +178,7 @@ Frontend akan berjalan di `http://localhost:3000`
 
 ## 🌐 Deployment Links
 
-- **Frontend:** [https://property-listing-frontend.vercel.app](https://property-listing-frontend.vercel.app)
-- **Backend API:** [https://property-listing-api.railway.app](https://property-listing-api.railway.app)
+- **Link Deployment:** [https://property-listing-frontend.vercel.app](https://property-listing-frontend.vercel.app)
 
 --- 
 
@@ -545,39 +544,39 @@ Semua endpoint dapat mengembalikan error responses berikut:
 ## 📸 Screenshots Aplikasi
 
 ### 1. Landing Page
-![Landing Page](screenshots/landing-page.png)
+
 *Halaman utama dengan hero section dan featured properties*
 
 ### 2. Property Listings
-![Property Listings](screenshots/property-listings.png)
+
 *Daftar properti dengan filter dan search functionality*
 
 ### 3. Property Details
-![Property Details](screenshots/property-details.png)
+
 *Detail properti dengan gallery photos dan inquiry form*
 
 ### 4. Search & Filter
-![Search Filter](screenshots/search-filter.png)
+
 *Advanced search dengan multiple filter options*
 
 ### 5. User Dashboard (Buyer)
-![Buyer Dashboard](screenshots/buyer-dashboard.png)
+
 *Dashboard buyer dengan favorites dan inquiry history*
 
 ### 6. Agent Dashboard
-![Agent Dashboard](screenshots/agent-dashboard.png)
+
 *Dashboard agent dengan property management dan inquiries*
 
 ### 7. Property Form (Create/Edit)
-![Property Form](screenshots/property-form.png)
+
 *Form untuk create/update property dengan image upload*
 
 ### 8. Favorites Page
-![Favorites](screenshots/favorites.png)
+
 *Halaman favorites dengan saved properties*
 
 ### 9. Login & Register
-![Authentication](screenshots/auth.png)
+
 *Authentication pages dengan validation*
 
 ---
@@ -586,71 +585,8 @@ Semua endpoint dapat mengembalikan error responses berikut:
 
 📹 **Link Video Presentasi:** [https://youtu.be/your-video-link](https://youtu.be/your-video-link)
 
-## 📁 Struktur Project
-
-```
-uas-paw-04-giovan/
-├── backend/
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── models/
-│   │   │   ├── __init__.py
-│   │   │   ├── user.py
-│   │   │   ├── property.py
-│   │   │   ├── property_photo.py
-│   │   │   ├── favorite.py
-│   │   │   └── inquiry.py
-│   │   ├── routes/
-│   │   │   ├── __init__.py
-│   │   │   ├── auth.py
-│   │   │   ├── properties.py
-│   │   │   ├── favorites.py
-│   │   │   └── inquiries.py
-│   │   ├── utils/
-│   │   │   ├── __init__.py
-│   │   │   ├── validators.py
-│   │   │   └── decorators.py
-│   │   └── config.py
-│   ├── migrations/
-│   ├── uploads/
-│   ├── .env
-│   ├── requirements.txt
-│   └── run.py
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── PropertyCard.jsx
-│   │   │   ├── PropertyList.jsx
-│   │   │   ├── SearchFilter.jsx
-│   │   │   ├── InquiryForm.jsx
-│   │   │   └── ProtectedRoute.jsx
-│   │   ├── pages/
-│   │   │   ├── Home.jsx
-│   │   │   ├── Login.jsx
-│   │   │   ├── Register.jsx
-│   │   │   ├── PropertyDetails.jsx
-│   │   │   ├── BuyerDashboard.jsx
-│   │   │   ├── AgentDashboard.jsx
-│   │   │   ├── Favorites.jsx
-│   │   │   └── PropertyForm.jsx
-│   │   ├── services/
-│   │   │   └── api.js
-│   │   ├── context/
-│   │   │   └── AuthContext.jsx
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   └── index.js
-│   ├── .env
-│   ├── package.json
-│   └── README.md
-├── screenshots/
-├── .gitignore
-└── README.md
-```
-
 ---
+
 ## 🧪 Testing
 
 ### Testing API dengan Postman
